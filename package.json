@@ -15,7 +15,7 @@
             "path": "build/index.html"
         },
         "js": {
-            "entries": ["src/app/main.js"],
+            "entry": "src/app/main.js",
             "alias": "build/app.js"
         }
     },
