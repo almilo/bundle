@@ -1,0 +1,25 @@
+{
+    "name": "bundle",
+    "version": "0.0.0",
+    "license": "MIT",
+    "dependencies": {
+        "angular-bsfy": "^1.2.17-5"
+    },
+    "atomify": {
+        "server": {
+            "lr": {
+                "verbose": true
+            },
+            "sync": true,
+            "open": true,
+            "path": "build/index.html"
+        },
+        "js": {
+            "entries": ["src/app/main.js"],
+            "alias": "build/app.js"
+        }
+    },
+    "browser": {
+        "lib": "./src/lib/main.js"
+    }
+}

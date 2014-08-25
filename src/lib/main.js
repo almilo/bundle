@@ -1,0 +1,1 @@
+exports.greeterService = require('./greeterService');
